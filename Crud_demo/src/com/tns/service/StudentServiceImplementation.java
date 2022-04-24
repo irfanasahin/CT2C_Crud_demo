@@ -6,6 +6,7 @@ import com.tns.entity.Student;
 
 public class StudentServiceImplementation implements StudentService {
 
+	// we need to call the dao methods.
 	private StudentDao dao;
 
 	public StudentServiceImplementation() {

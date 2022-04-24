@@ -1,4 +1,5 @@
 package com.tns.service;
+// this package is use for abstraction
 
 import com.tns.entity.Student;
 

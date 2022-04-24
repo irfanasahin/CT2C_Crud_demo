@@ -33,6 +33,7 @@ public class Client {
 		student = service.findStudentById(100);
 		System.out.print("ID:" + student.getStudentId());
 		System.out.println(" Name:" + student.getName());
+		
 		// at this breakpoint, record is removed from table
 		// Delete Operation
 		student = service.findStudentById(100);
